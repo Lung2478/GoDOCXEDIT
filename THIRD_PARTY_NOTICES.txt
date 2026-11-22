@@ -1,0 +1,64 @@
+GoDOCXEDIT -- Third-Party Open-Source Software Notices
+======================================================
+
+GoDOCXEDIT incorporates or is built using the following open-source software
+components. We gratefully acknowledge the authors and contributors of each
+project. All listed components permit binary distribution under their
+respective licenses.
+
+--------------------------------------------------------------------------------
+1. pywebview
+   License: BSD-3-Clause
+   Website: https://pywebview.flowrl.com/
+   Copyright (c) Roman Sirokov and contributors. All rights reserved.
+
+2. python-docx
+   License: MIT License
+   Website: https://github.com/python-openxml/python-docx
+   Copyright (c) Steve Canny and contributors.
+
+3. lxml
+   License: BSD-3-Clause
+   Website: https://lxml.de/
+   Copyright (c) Infrae and lxml contributors. All rights reserved.
+
+4. Pillow (PIL Fork)
+   License: MIT-CMU (Historical Permission Notice and Disclaimer)
+   Website: https://python-pillow.org/
+   Copyright (c) Secret Labs AB, Fredrik Lundh, and Pillow contributors.
+
+5. PyInstaller (Bootloader Runtime)
+   License: GPL-2.0-or-later WITH Bootloader-exception
+   Website: https://pyinstaller.org/
+   Note: PyInstaller's special bootloader exception explicitly permits using
+   PyInstaller to build and distribute proprietary, closed-source executables
+   under any license terms.
+
+6. pythonnet / clr_loader (Windows WebView2 runtime bridge)
+   License: MIT License
+   Website: https://pythonnet.github.io/
+   Copyright (c) Python for .NET contributors.
+
+7. React & React DOM
+   License: MIT License
+   Website: https://react.dev/
+   Copyright (c) Meta Platforms, Inc. and affiliates.
+
+8. Lucide React (lucide-react)
+   License: ISC License
+   Website: https://lucide.dev/
+   Copyright (c) Lucide Contributors.
+
+--------------------------------------------------------------------------------
+Standard Permissive License Reference Notices:
+
+[MIT / ISC / BSD-3-Clause Summary]
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the above copyright notices, this list of
+conditions, and the following disclaimer are retained.
+
+THESE THIRD-PARTY COMPONENTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE.

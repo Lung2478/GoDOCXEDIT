@@ -1,0 +1,18 @@
+# GoDOCXEDIT Public Release & AI Interface Repository
+# Compiled executables (.exe) and .docx manuals are distributed via GitHub Releases,
+# NOT committed into the Git repository tree.
+
+*.exe
+*.docx
+*.tmp
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
