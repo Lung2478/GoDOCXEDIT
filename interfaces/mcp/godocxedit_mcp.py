@@ -144,7 +144,7 @@ TOOLS_SCHEMA: List[Dict[str, Any]] = [
     {
         "name": "godocxedit_convert",
         "description": (
-            "Convert and normalize a single document into a 100% Microsoft Word & Google Docs "
+            "Convert and normalize a single document into a Microsoft Word & Google Docs "
             "compatible output file. Refuses to overwrite the original input file."
         ),
         "inputSchema": {
@@ -177,7 +177,7 @@ TOOLS_SCHEMA: List[Dict[str, Any]] = [
         "name": "godocxedit_batch",
         "description": (
             "Recursively batch-rebuild legacy Office documents in a folder into a separate "
-            "output directory for 100% Microsoft Word & Google Docs compatibility. "
+            "output directory for Microsoft Word & Google Docs intersection compatibility. "
             "Strictly refuses outputting inside the source directory and skips ~$ lock files."
         ),
         "inputSchema": {

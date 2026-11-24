@@ -1,6 +1,6 @@
 # GoDOCXEDIT Quick Start & Feature Manual (English Edition)
 
-**Complete First-Time User Guide — 100% Offline Single-Executable Word Processor Built on the Strict Intersection of Microsoft Word and Google Docs**
+**Complete First-Time User Guide — Offline Single-Executable Word Processor Built on the Mutual Intersection of Microsoft Word and Google Docs**
 
 > [!TIP]
 > **Language-Synced Live Manual Inside the App**: GoDOCXEDIT remembers your preferred UI language on startup (detecting your OS language on first launch) and opens the matching `.docx` manual automatically. Clicking the top-right language toggle (**`EN / 中`**) **swaps the open manual tab in place between English and Traditional Chinese while keeping your current chapter position** (and background Auto-Save skips built-in manuals so casual testing never overwrites the master file). For the Traditional Chinese manual, see [Quick_Start_Manual_zh-TW.md](./Quick_Start_Manual_zh-TW.md).
@@ -24,12 +24,12 @@
 
 In modern business collaboration, legal contract reviews, executive proposals, and technical documentation, a single `.docx` file routinely moves back and forth between desktop **Microsoft Word** and cloud-based **Google Docs**. Traditional word processors often mix single-vendor local fonts, leave East Asian and Western font slots mismatched, or rely on proprietary floating effects—causing unexpected font substitution, broken table alignments, and shifted page counts the moment a recipient opens the file on the other platform.
 
-As part of the **GoEdit** offline desktop productivity family (alongside `GoMDEDIT` for Markdown and `GoSLIDEEDIT` for presentations), **GoDOCXEDIT** is engineered strictly around the **100% Intersection** of Microsoft Word and Google Docs:
+As part of the **GoEdit** offline desktop productivity family (alongside `GoMDEDIT` for Markdown and `GoSLIDEEDIT` for presentations), **GoDOCXEDIT** is engineered around the **Mutual Intersection** of Microsoft Word and Google Docs:
 
 | Signature Selling Point | Business Pain Point Solved | Practical Value Delivered |
 | :--- | :--- | :--- |
-| **1. 100% Word & Google Docs Intersection Compatibility** | Cross-platform sharing triggers font fallback, altered line wraps, and broken pagination. | Curates **15 cross-platform Safe Fonts** with separate **Chinese (CJK)** and **English (ASCII)** selectors that automatically split and bind mixed-script runs for zero layout drift. |
-| **2. 100% Offline Single Executable (`.exe`) & Zero Cloud Exposure** | Confidential contracts, financial statements, and internal memos cannot be uploaded to cloud apps or installed on locked-down workstations. | Portable `GoDOCXEDIT.exe` launches instantly without installation or internet access, powered by **Viewport Page Virtualization** for smooth scrolling on multi-thousand-paragraph documents. |
+| **1. Word & Google Docs Intersection Compatibility** | Cross-platform sharing triggers font fallback, altered line wraps, and broken pagination. | Curates **15 cross-platform Safe Fonts** with separate **Chinese (CJK)** and **English (ASCII)** selectors that automatically split and bind mixed-script runs for zero layout drift. |
+| **2. Offline Single Executable (`.exe`) & Zero Cloud Exposure** | Confidential contracts, financial statements, and internal memos cannot be uploaded to cloud apps or installed on locked-down workstations. | Portable `GoDOCXEDIT.exe` launches instantly without installation or internet access, powered by **Viewport Page Virtualization** for smooth scrolling on multi-thousand-paragraph documents. |
 | **3. Smart Font Normalization + Non-Overwrite Protection** | Opening an external file with custom fonts risks overwriting a client's original file via background auto-save. | Unsupported fonts map cleanly to safe equivalents with full diagnostics in the **Compat** tab, while **background Auto-Save automatically pauses** until you explicitly press `Ctrl+S`. |
 | **4. Complete Executive & Business Layout Suite** | Lightweight editors cannot handle mixed Portrait/Landscape sections, merged cells, watermarks, or batch spacing. | Supports **per-section Portrait/Landscape breaks**, **Dual-Track Table of Contents**, **horizontal/vertical cell merging & nested sub-tables**, **header logos**, **text/image watermarks**, and **batch font/spacing updates by layer**. |
 | **5. 7-Format Bidirectional I/O + 1:1 Zero-Drift PDF** | Different clients, portals, and archives demand `.odt`, `.rtf`, `.html`, `.md`, `.txt`, or print-exact `.pdf`. | Saves standard `.docx` by default while importing/exporting `.docx`, `.odt`, `.rtf`, `.html`, `.md`, and `.txt`, plus zero-drift 1:1 Print / PDF export (`Ctrl+P`). |
@@ -58,7 +58,7 @@ GoDOCXEDIT organizes every capability into five clean workspace zones. Both side
 | **`[2]` Left Navigation Sidebar** | Left side (collapsible) | Strictly aligned at `38px` header height with the document TabBar. Provides **`Outline`** (live `H1–H4` heading tree with one-click jump) and **`Files`** (local folder tree supporting direct open for all 7 document formats). |
 | **`[3]` Multi-Tab Bar & Central Paper Canvas** | Center main stage | Top `38px` TabBar supports multiple open tabs, mouse-wheel horizontal scrolling, and drag-and-drop reordering; below sits the **Paged Print Layout** (with ruler & corner crop marks) or **Pageless Continuous** canvas. |
 | **`[4]` Right Four-Tab Inspector Panel** | Right side (collapsible) | Organized into **`Page`**, **`Para`**, **`Element`**, and **`Compat`** tabs for margins, full watermark styling, batch font/line-spacing controls, cell merge/unmerge actions, and normalization diagnostics. |
-| **`[5]` Bottom Status & Zoom Bar** | Full width at the bottom | Displays the `Word ∩ Google Docs 100% Verified` pill, active Non-Overwrite Protection badge, estimated pages/words/characters, and the `25% ~ 200%` canvas zoom slider. |
+| **`[5]` Bottom Status & Zoom Bar** | Full width at the bottom | Displays the `Word ∩ Google Docs Intersection Verified` pill, active Non-Overwrite Protection badge, estimated pages/words/characters, and the `25% ~ 200%` canvas zoom slider. |
 
 ---
 
@@ -121,7 +121,7 @@ flowchart LR
 | Control / Dropdown | Shortcut | Function & Practical Usage |
 | :--- | :--- | :--- |
 | **Insert Table (8x8 Grid Picker)** | — | Drag-hover up to `8 × 8` cells to insert a table; add/delete rows or merge cells later in the `Element` tab. |
-| **Insert Callout / Code Box** | — | Choose **Business Info**, **Warning**, **Success**, or **Code Block** (rendered as 100% compatible shaded boxes). |
+| **Insert Callout / Code Box** | — | Choose **Business Info**, **Warning**, **Success**, or **Code Block** (rendered as cross-platform compatible shaded boxes). |
 | **Insert Image** | — | Supports `.png`, `.jpg`, `.jpeg`, `.webp`, `.svg`, `.bmp`, and `.gif`, automatically normalized to **300 DPI `.png`**. |
 | **Symbols & Formulas (`Ω`)** | — | Organized palette of Currency, Legal (`© ® ™ §`), Math operators, Greek letters, and scientific formulas. |
 | **Insert TOC / Horizontal Rule** | — | Inserts a clickable Table of Contents block or horizontal section divider. |
@@ -160,7 +160,7 @@ Context-aware controls appear automatically based on your canvas selection:
 - **When an Image is selected**: Adjust display width (`80 ~ 720 px` with automatic aspect ratio lock) and Left/Center/Right alignment.
 
 ### 5.4 `Compat` Tab
-- **Intersection Verification & One-Click Sanitizer**: Displays `Word ∩ Google Docs 100% Verified` status and provides the **`Run Full Compatibility Sanitizer`** button.
+- **Intersection Verification & One-Click Sanitizer**: Displays `Word ∩ Google Docs Intersection Verified` status and provides the **`Run Full Compatibility Sanitizer`** button.
 - **Non-Overwrite Banner & Normalization Diagnostics**: Lists clear explanations whenever an imported external file had unsupported fonts or single-vendor attributes normalized.
 
 ---
@@ -225,7 +225,7 @@ GoDOCXEDIT strictly enforces the **Microsoft Word and Google Docs mutual interse
 ## 8. Frequently Asked Questions (FAQ)
 
 ### Q1: Why does the font menu list 15 specific fonts instead of every font installed on my computer?
-**Answer**: Limiting typography to the **15 verified Safe Fonts** is what guarantees **100% zero-drift compatibility between Microsoft Word and Google Docs**. Local custom fonts trigger silent font substitution and shifted page breaks as soon as a file is opened on another PC or in Google Docs.
+**Answer**: Limiting typography to the **15 verified Safe Fonts** is what ensures **consistent cross-platform compatibility between Microsoft Word and Google Docs**. Local custom fonts trigger silent font substitution and shifted page breaks as soon as a file is opened on another PC or in Google Docs.
 
 ### Q2: Why are Chinese (CJK) and English (ASCII) fonts split into two separate dropdowns?
 **Answer**: In bilingual business documents, authors frequently pair a clean CJK font (such as `Microsoft JhengHei`) with a classic Western font (such as `Calibri`, `Georgia`, or `Times New Roman`). Separate selectors let GoDOCXEDIT automatically detect and bind each script as you type—no manual word-by-word font switching required.
@@ -237,4 +237,4 @@ GoDOCXEDIT strictly enforces the **Microsoft Word and Google Docs mutual interse
 **Answer**: MS-Word permits proprietary custom table structures (staggered split cells, hand-drawn misaligned borders, diagonal cell headers, floating text boxes) that are not supported across the Word & Google Docs intersection. Keep Word-proprietary resume layouts in MS-Word, or build cross-platform tables directly in GoDOCXEDIT.
 
 ### Q5: Does GoDOCXEDIT require an internet connection or upload any document content to the cloud?
-**Answer**: **Never**. `GoDOCXEDIT.exe` runs 100% offline on your local machine with zero network requests and zero cloud uploads—making it ideal for confidential legal contracts, financial reports, and air-gapped enterprise environments.
+**Answer**: **Never**. `GoDOCXEDIT.exe` runs fully offline on your local machine with zero network requests and zero cloud uploads—making it ideal for confidential legal contracts, financial reports, and air-gapped enterprise environments.

@@ -1,11 +1,11 @@
 ---
 name: godocxedit-operator
-description: Operate GoDOCXEDIT.exe via its official Headless CLI to safely audit, convert, and batch-rebuild legacy Office documents (.docx, .odt, .rtf, .html, .md, .txt) into 100% Microsoft Word and Google Docs mutually compatible files without modifying original source files.
+description: Operate GoDOCXEDIT.exe via its official Headless CLI to safely audit, convert, and batch-rebuild legacy Office documents (.docx, .odt, .rtf, .html, .md, .txt) into Microsoft Word and Google Docs mutually compatible files without modifying original source files.
 ---
 
 # GoDOCXEDIT AI Operator Skill
 
-Use this skill whenever the user asks you to audit, normalize, convert, or batch-rebuild personal or corporate Office documents for 100% Microsoft Word and Google Docs compatibility using **GoDOCXEDIT**.
+Use this skill whenever the user asks you to audit, normalize, convert, or batch-rebuild personal or corporate Office documents for Microsoft Word and Google Docs intersection compatibility using **GoDOCXEDIT**.
 
 ## 1. Prerequisites & Binary Discovery
 Locate `GoDOCXEDIT.exe` (downloaded from the official GoDOCXEDIT GitHub Releases):
@@ -54,4 +54,4 @@ Single file conversion:
 
 ## 4. Licensing Boundary Reminder
 - This Skill file is provided under the **MIT License** (`LICENSE-INTERFACES`).
-- `GoDOCXEDIT.exe` itself is governed by the **GoDOCXEDIT Proprietary Freeware EULA** (`LICENSE` / `LICENSE.zh-TW.md`): free for personal and internal enterprise use. Do not embed `GoDOCXEDIT.exe` into external commercial SaaS or third-party redistributed software without a Commercial License from GoXEDIT Official.
+- `GoDOCXEDIT.exe` itself is governed by the **GoDOCXEDIT Freeware EULA** (`LICENSE` / `LICENSE.zh-TW.md`): free for personal and internal enterprise use. Do not embed `GoDOCXEDIT.exe` into external commercial SaaS or third-party redistributed software without a Commercial License from GoXEDIT Official.

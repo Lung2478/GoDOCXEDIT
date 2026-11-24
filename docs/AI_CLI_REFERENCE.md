@@ -1,7 +1,7 @@
 # GoDOCXEDIT Headless CLI 與 AI 操作接口參考手冊
 # GoDOCXEDIT Headless CLI & AI Automation Reference (`v1.9.0`)
 
-本文件定義 `GoDOCXEDIT.exe` 的無頭指令列介面（Headless CLI），專為 AI 代理（Antigravity、Claude、Codex、Cursor 等）與企業 IT 自動化管線設計，可在完全不啟動桌面視窗的情況下，安全稽核、轉換並批次重製舊 Office 文件為 **Microsoft Word & Google Docs 100% 雙向交集相容**檔案。
+本文件定義 `GoDOCXEDIT.exe` 的無頭指令列介面（Headless CLI），專為 AI 代理（Antigravity、Claude、Codex、Cursor 等）與企業 IT 自動化管線設計，可在完全不啟動桌面視窗的情況下，安全稽核、轉換並批次重製舊 Office 文件為 **Microsoft Word & Google Docs 雙向交集相容**檔案。
 
 ---
 
@@ -44,8 +44,8 @@ GoDOCXEDIT.exe info --json [--report info.json]
   "command": "info",
   "app": "GoDOCXEDIT",
   "version": "1.9.0",
-  "compatibility": "Microsoft Word & Google Docs 100% Mutual Intersection",
-  "license": "Proprietary Freeware EULA (Free for Personal & Internal Enterprise Use)",
+  "compatibility": "Microsoft Word & Google Docs Mutual Intersection",
+  "license": "Freeware EULA (Free for Personal & Internal Enterprise Use)",
   "supportedImportExtensions": [".docx", ".odt", ".rtf", ".html", ".htm", ".txt", ".md"],
   "supportedExportFormats": ["docx", "odt", "rtf", "html", "md", "txt"],
   "safeFonts": {
@@ -131,5 +131,5 @@ GoDOCXEDIT.exe batch <input_dir> --output <output_dir> [--format docx] [--recurs
 ## 5. 授權與免責聲明 (License & Disclaimer)
 
 - 本介面規格文件與 `interfaces/` 下之範例腳本／Skill／MCP 包裝器依 **MIT License** 釋出（見 `LICENSE-INTERFACES`）。
-- `GoDOCXEDIT.exe` 軟體執行檔本體依 **Proprietary Freeware EULA** 授權（見 `LICENSE` / `LICENSE.zh-TW.md`）：個人與企業內部使用完全免費；如需 OEM 內嵌整合、專屬客製開發、企業級大量舊檔重製顧問或專屬技術支援與 SLA，請聯繫 GoXEDIT 官方取得商業授權。
+- `GoDOCXEDIT.exe` 軟體執行檔本體依 **Freeware EULA** 授權（見 `LICENSE` / `LICENSE.zh-TW.md`）：個人與企業內部使用完全免費；如需 OEM 內嵌整合、專屬客製開發、企業級大量舊檔重製顧問或專屬技術支援與 SLA，請聯繫 GoXEDIT 官方取得商業授權。
 - 執行任何批次重製前，請務必自行備份所有原始檔案。

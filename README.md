@@ -1,13 +1,13 @@
 # GoDOCXEDIT
 
-**Microsoft Word & Google Docs 100% 雙向完全相容之離線商務文件編輯器 ＋ AI 批次自動化引擎**  
-*100% Mutually Compatible Offline Desktop Word Processor & Headless AI Automation Engine for Microsoft Word & Google Docs*
+**Microsoft Word & Google Docs 雙向交集相容之離線商務文件編輯器 ＋ AI 批次自動化引擎**  
+*Mutually Compatible Offline Desktop Word Processor & Headless AI Automation Engine for Microsoft Word & Google Docs*
 
 ---
 
 ## 1. 產品定位與核心特色 (Overview & Key Features)
 
-**GoDOCXEDIT** 隸屬於 **GoXEDIT** 離線桌面生產力家族，是一款開箱即用的 Windows 單一離線執行檔（`GoDOCXEDIT.exe`）。本軟體嚴格鎖定 **Microsoft Word** 與 **Google Docs** 兩大平台的 **100% 交集**，確保編修或轉換完成的 `.docx` 文件在桌面版 Word 與雲端 Google Docs 之間來回開啟時，字型、版面、表格、目錄、浮水印與向量流程圖皆不跑版、不跳字。
+**GoDOCXEDIT** 隸屬於 **GoXEDIT** 離線桌面生產力家族，是一款開箱即用的 Windows 單一離線執行檔（`GoDOCXEDIT.exe`）。本軟體鎖定 **Microsoft Word** 與 **Google Docs** 兩大平台的 **雙平台交集**，確保編修或轉換完成的 `.docx` 文件在桌面版 Word 與雲端 Google Docs 之間來回開啟時，字型、版面、表格、目錄、浮水印與向量流程圖皆不跑版、不跳字。
 
 - **15 款雙平台交集安全字型 ＋ 中英雙語系自動切分**：完整支援 3 款繁體中文字型（微軟正黑體、新細明體、標楷體）與 12 款跨平台西文字型，底層自動寫入四重字型槽位綁定，徹底消除中英混排字型跳號。
 - **完整多格式雙向互通**：預設儲存為 `.docx`；支援開啟／匯入與另存／匯出 `.docx`、`.odt`、`.rtf`、`.html`、`.md`、`.txt`，並支援 1:1 預覽列印與 `.pdf` 匯出。
@@ -20,7 +20,7 @@
 
 請前往本倉庫之 **[GitHub Releases (Latest)](https://github.com/Lung2478/GoDOCXEDIT/releases/latest)** 下載最新發行包：
 
-- `GoDOCXEDIT.exe`：Windows 100% 離線單一執行檔（免安裝、免網路、支援 GUI 編輯與 Headless CLI）
+- `GoDOCXEDIT.exe`：Windows 離線單一執行檔（免安裝、免網路、支援 GUI 編輯與 Headless CLI）
 - `Quick_Start_Manual_zh-TW.docx`：正體中文詳盡快速入門活體手冊（亦提供線上版 [`docs/Quick_Start_Manual_zh-TW.md`](./docs/Quick_Start_Manual_zh-TW.md)）
 - `Quick_Start_Manual_en.docx`：English Comprehensive Quick Start Manual (also online at [`docs/Quick_Start_Manual_en.md`](./docs/Quick_Start_Manual_en.md))
 - `SHA256SUMS.txt`：發佈檔案之 SHA-256 雜湊校驗碼
@@ -42,7 +42,7 @@ GoDOCXEDIT 提供完整、零依賴且採 **MIT 授權** 的公開 AI 操作介�
 # 1. 唯讀盤點舊檔資料夾相容性風險（不改動任何檔案）
 .\GoDOCXEDIT.exe audit .\legacy_office_docs --json --report .\audit_report.json
 
-# 2. 一行指令批次重製為 100% Word & Google Docs 相容 .docx（輸出至獨立目錄，絕不覆寫原檔）
+# 2. 一行指令批次重製為 Word & Google Docs 交集相容 .docx（輸出至獨立目錄，絕不覆寫原檔）
 .\GoDOCXEDIT.exe batch .\legacy_office_docs --output .\compatible_docs --cjk-font "Microsoft JhengHei" --latin-font "Calibri" --json --report .\batch_report.json
 ```
 
@@ -58,7 +58,7 @@ GoDOCXEDIT 提供完整、零依賴且採 **MIT 授權** 的公開 AI 操作介�
 
 本倉庫採用 **雙層授權架構**：
 
-1. **GoDOCXEDIT 軟體執行檔本體 (`GoDOCXEDIT.exe`)**：依專有免費軟體終端使用者授權協議（Proprietary Freeware EULA）發佈，詳見英文正式版 [`LICENSE`](./LICENSE) 與正體中文版 [`LICENSE.zh-TW.md`](./LICENSE.zh-TW.md)。
+1. **GoDOCXEDIT 軟體執行檔本體 (`GoDOCXEDIT.exe`)**：依免費軟體終端使用者授權協議（Freeware EULA）發佈，詳見英文正式版 [`LICENSE`](./LICENSE) 與正體中文版 [`LICENSE.zh-TW.md`](./LICENSE.zh-TW.md)。
    - **個人與企業內部使用完全免費**（包含企業內部由 AI 代理批次重製自家舊 Office 檔案）。
    - 未經書面商業授權，禁止再散布轉售、白牌換名、對外提供商業 SaaS／轉檔代工服務或逆向反編譯。
 2. **公開 AI 操作介面與呼叫範例 (`interfaces/` 目錄)**：另行依 **MIT License** 釋出（詳見 [`LICENSE-INTERFACES`](./LICENSE-INTERFACES)），方便開發者與企業 IT 自由整合至各類 AI 工作流；該 MIT 授權不及於軟體執行檔本體。
@@ -76,7 +76,7 @@ GoDOCXEDIT 提供完整、零依賴且採 **MIT 授權** 的公開 AI 操作介�
 
 ## 5. 免責聲明與備份提醒 (Disclaimer & Backup Warning)
 
-本軟體係「依現狀（AS IS）」免費提供，不附帶任何明示或默示擔保。在對重要個人或企業檔案執行任何正規化或 AI 自動化批次轉換作業前，**請務必先行保留所有原始檔案之獨立完整備份**；因 Microsoft Word 與 Google Docs 各自存在超出雙平台交集之專屬排版特性，轉換完成之文件於正式對外發佈或歸檔前應由人工抽檢確認。完整免責條款請參閱 [`LICENSE`](./LICENSE) 與 [`LICENSE.zh-TW.md`](./LICENSE.zh-TW.md)。
+本軟體係「依現狀」免費提供，不附帶任何明示或默示擔保。在對重要個人或企業檔案執行任何正規化或 AI 自動化批次轉換作業前，**請務必先行保留所有原始檔案之獨立完整備份**；因 Microsoft Word 與 Google Docs 各自存在超出雙平台交集之專屬排版特性，轉換完成之文件於正式對外發佈或歸檔前應由人工抽檢確認。完整免責條款請參閱 [`LICENSE`](./LICENSE) 與 [`LICENSE.zh-TW.md`](./LICENSE.zh-TW.md)。
 
 ---
 

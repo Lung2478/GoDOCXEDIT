@@ -7,7 +7,7 @@ This MIT License applies EXCLUSIVELY to the AI interface definitions, Agent
 Skill files, MCP wrapper scripts, JSON schemas, and example automation scripts
 located inside the `interfaces/` directory of the official GoDOCXEDIT public
 release repository. It does NOT apply to the GoDOCXEDIT software executable
-(`GoDOCXEDIT.exe`) or its underlying closed-source engine, which are governed
+(`GoDOCXEDIT.exe`) or its underlying engine, which are governed
 solely by the End-User License Agreement in `LICENSE` (`LICENSE.zh-TW.md`).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
