@@ -28,7 +28,7 @@ import tempfile
 from typing import Any, Dict, List, Optional
 
 SERVER_NAME = "godocxedit-mcp"
-SERVER_VERSION = "1.9.0"
+SERVER_VERSION = "1.9.1"
 PROTOCOL_VERSION = "2024-11-05"
 
 

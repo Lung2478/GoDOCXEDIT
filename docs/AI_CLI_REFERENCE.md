@@ -1,5 +1,5 @@
 # GoDOCXEDIT Headless CLI 與 AI 操作接口參考手冊
-# GoDOCXEDIT Headless CLI & AI Automation Reference (`v1.9.0`)
+# GoDOCXEDIT Headless CLI & AI Automation Reference (`v1.9.1`)
 
 本文件定義 `GoDOCXEDIT.exe` 的無頭指令列介面（Headless CLI），專為 AI 代理（Antigravity、Claude、Codex、Cursor 等）與企業 IT 自動化管線設計，可在完全不啟動桌面視窗的情況下，安全稽核、轉換並批次重製舊 Office 文件為 **Microsoft Word & Google Docs 雙向交集相容**檔案。
 
@@ -43,7 +43,7 @@ GoDOCXEDIT.exe info --json [--report info.json]
   "status": "ok",
   "command": "info",
   "app": "GoDOCXEDIT",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "compatibility": "Microsoft Word & Google Docs Mutual Intersection",
   "license": "Freeware EULA (Free for Personal & Internal Enterprise Use)",
   "supportedImportExtensions": [".docx", ".odt", ".rtf", ".html", ".htm", ".txt", ".md"],
